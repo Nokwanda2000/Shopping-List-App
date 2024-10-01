@@ -3,7 +3,7 @@ import Layout from './layout';
 import Footer from './footer';
 import { Link, useNavigate } from 'react-router-dom/dist';
 import { useDispatch, useSelector } from 'react-redux';
-import { register } from '/src/redux/slices/authSlice'; // Assuming you have this action in authSlice
+import { register } from '/src/redux/slices/authSlice'; 
 
 function Register() {
   const [formData, setFormData] = useState({

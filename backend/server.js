@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const bcrypt = require('bcrypt'); // For password hashing
+const bcrypt = require('bcrypt'); 
 const db = require('better-sqlite3')('database.db');
 
 const app = express();

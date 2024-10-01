@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom/dist';
 import { useDispatch, useSelector } from 'react-redux';
-import { login } from '/src/redux/slices/authSlice'; // Assuming you have this action in authSlice
+import { login } from '/src/redux/slices/authSlice'; 
 
 function Login() {
   const [formData, setFormData] = useState({ email: '', password: '' });
