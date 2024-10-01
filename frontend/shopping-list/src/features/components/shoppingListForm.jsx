@@ -74,4 +74,4 @@ function ShoppingListForm({ selectedItem, setSelectedItem }) {
   );
 }
 
-export def
+export default ShoppingListForm;
