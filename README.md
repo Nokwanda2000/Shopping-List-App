@@ -6,7 +6,7 @@
 
 Clone the project
 ```bash
-  git clone 
+  git clone https://github.com/Nokwanda2000/Shopping-List-App.git
 ```
 
 Go to the project directory
