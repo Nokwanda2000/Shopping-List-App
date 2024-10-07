@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from './footer';
 import Layout from './layout';
+import { Link } from 'react-router-dom';
 
 function ListCard({ item, onEdit, onDelete }) {
   return (
@@ -15,7 +16,7 @@ function ListCard({ item, onEdit, onDelete }) {
       </div>
 
       <div className="flex justify-between p-4">
-        <button
+        {/* <button
           onClick={() => onEdit(item.id)}
           className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold rounded-lg px-4 py-2 transition-colors"
         >
@@ -26,16 +27,18 @@ function ListCard({ item, onEdit, onDelete }) {
           className="bg-red-500 hover:bg-red-600 text-white font-semibold rounded-lg px-4 py-2 transition-colors"
         >
           Delete
-        </button>
+        </button> */}
+      <Link to={`${item.id}`}><button className='bg-green-700 hover:bg-green-600 text-white font-semibold rounded-lg px-4 transition-colors'>View List</button></Link>
+        
       </div>
 
-      <figure className="h-48 overflow-hidden">
+      {/* <figure className="h-48 overflow-hidden">
         <img
           src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
           alt="Product"
           className="w-full h-full object-cover"
         />
-      </figure>
+      </figure> */}
     </div>
 
 

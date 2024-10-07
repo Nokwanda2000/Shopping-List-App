@@ -83,7 +83,7 @@ function Listspage() {
             }}
             className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700 transition-colors w-full sm:w-auto"
           >
-            Add New Item
+            Add New List
           </button>
         </div>
 

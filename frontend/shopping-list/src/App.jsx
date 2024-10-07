@@ -6,6 +6,7 @@ import Loginpage from './pages/loginpage';
 import Registerpage from './pages/registerpage';
 import Listspage from './pages/listspage';
 import Footer from './features/components/footer';
+import Categorylist from './features/components/categorylist';
 function App() {
 
 
@@ -17,7 +18,11 @@ function App() {
         <Route path= '/layout' element={<Layoutpage/>}>   </Route>
         <Route path= '/loginpage' element={<Loginpage/>}></Route>
         <Route path='/Registerpage' element={<Registerpage/>}></Route>
-        <Route path='/listspage' element={<Listspage/>}></Route>
+
+        <Route path='/listspage'>
+        <Route index element={<Listspage/>}></Route>
+        <Route path=':id' element={<Categorylist/>}></Route>
+       </Route>
      
         
    
