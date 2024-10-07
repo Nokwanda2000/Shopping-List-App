@@ -328,6 +328,55 @@
       "quantity": "3",
       "notes": "Buy tomorr",
       "categories": "Clothing"
+    },
+    {
+      "id": 1728306443001,
+      "name": "Apple",
+      "quantity": "2",
+      "notes": "4",
+      "categories": "Groceries"
+    },
+    {
+      "id": "eafd",
+      "name": "burgers",
+      "quantity": "2",
+      "notes": "Order at spur",
+      "categories": "Groceries"
+    },
+    {
+      "id": "f312",
+      "name": "Balloons",
+      "quantity": "3",
+      "notes": "With letters Happy birthday",
+      "categories": "Party"
+    },
+    {
+      "id": 1728307115521,
+      "name": "Party",
+      "quantity": "7",
+      "notes": "",
+      "categories": "Groceries"
+    },
+    {
+      "id": 1728307512596,
+      "name": "Nokwanda's party",
+      "quantity": "5",
+      "notes": "",
+      "categories": "Clothing"
+    },
+    {
+      "id": 1728307618234,
+      "name": "Nokwanda's party",
+      "quantity": "7",
+      "notes": "",
+      "categories": "Clothing"
+    },
+    {
+      "id": 1728308087707,
+      "name": "Nokwanda's party",
+      "quantity": "6",
+      "notes": "",
+      "categories": "Groceries"
     }
   ],
   "orders": []

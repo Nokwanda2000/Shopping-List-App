@@ -3,13 +3,16 @@ import { Link, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import Footer from './footer';
 import Layoutpage from '../../pages/layoutpage';
-import ShoppingListForm from './shoppingListForm'; // Assuming this is the form for editing
+import CategoryForm from './Categoryform';
 
 export default function Categorylist({ onEdit, onDelete }) {
   const { id } = useParams(); // Extract the ID from the URL
   const items = useSelector((state) => state.shoppingList.items); // Get all items from Redux store
   const item = items.find((item) => item.id === Number(id)); // Find the item with the matching ID
+  
   const [editing, setEditing] = useState(false); // Manage edit mode state
+  const [isFormVisible, setIsFormVisible] = useState(false); // State to control form visibility
+  const [selectedItem, setSelectedItem] = useState(null); // For tracking the item being edited or added
 
   // If no item is found, return a not found message
   if (!item) {
@@ -19,6 +22,7 @@ export default function Categorylist({ onEdit, onDelete }) {
   // Toggle edit mode
   const handleEditClick = () => {
     setEditing(!editing);
+    setSelectedItem(item); // Set the selected item for editing
   };
 
   return (
@@ -53,8 +57,30 @@ export default function Categorylist({ onEdit, onDelete }) {
         </div>
 
         {/* Conditionally render the form for editing */}
-        {editing && <ShoppingListForm item={item} onSubmit={() => setEditing(false)} />}
+        {editing && <CategoryForm item={item} onSubmit={() => setEditing(false)} />}
       </div>
+
+      <button
+        className='flex bg-blue-600 text-white font-semibold rounded-lg px-4 justify-center py-3'
+        onClick={() => {
+          setSelectedItem(null); // Reset form for adding a new item
+          setIsFormVisible(true); // Show the form
+        }}
+      >
+        Add to list
+      </button>
+
+      {/* Conditionally render the form for adding new items */}
+      {isFormVisible && (
+        <div className="mt-6">
+          <CategoryForm
+            selectedItem={selectedItem} // Pass null when adding a new item
+            setSelectedItem={setSelectedItem}
+            onSubmit={() => setIsFormVisible(false)} // Hide form after submission
+          />
+        </div>
+      )}
+
       <Footer />
     </>
   );
