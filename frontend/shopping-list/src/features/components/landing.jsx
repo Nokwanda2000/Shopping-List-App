@@ -18,12 +18,21 @@ function Landing() {
           </h1>
 
           {/* Subheading */}
+<<<<<<< HEAD
           <p className="text-white text-lg sm:text-xl font-medium max-w-lg mx-auto drop-shadow-md">
             Discover the best shopping experience, curated just for you. Create a shopping list and share it with your friends!
           </p>
 <br></br>
          <Link to='/loginpage'>
          <button className="text-white px-6 sm:px-12 py-3 sm:py-4 bg-blue-600 hover:bg-blue-300 focus:ring-4 focus:ring-yellow-300 rounded-full text-lg sm:text-xl font-semibold transition duration-300 ease-in-out transform hover:scale-105">
+=======
+          <p className="text-white text-lg sm:text-m font-medium max-w-lg mx-auto drop-shadow-md">
+            Discover the best shopping experience, curated just for you!
+          </p>
+<br></br>
+         <Link to='/loginpage'>
+         <button className="text-white px-6 sm:px-6 py-2 sm:py-3 bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300 rounded-full text-lg sm:text-xl font-semibold transition duration-300 ease-in-out transform hover:scale-105">
+>>>>>>> f4683752b1f5ed8b40c18c41ca1534cf43186b04
             Get started
           </button>
          </Link>

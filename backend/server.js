@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const fs = require('fs');
 const path = require('path');
+=======
+const express = require('express');
+const cors = require('cors');
+const bcrypt = require('bcrypt'); 
+const db = require('better-sqlite3')('database.db');
+>>>>>>> f4683752b1f5ed8b40c18c41ca1534cf43186b04
 
 // Set default middlewares (logger, static, cors, and no-cache)
 server.use(middlewares);

@@ -4,6 +4,7 @@ import Instagram from '/src/assets/instagram.png'
 import Twitter from  '/src/assets/twitter.png'
 import Linkedin from '/src/assets/linkedin.png'
 
+
 function Footer() {
   return (
     <footer className="bg-blue-950 text-white py-8 bottom-0 screen-vh">
@@ -39,6 +40,7 @@ function Footer() {
             <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
             <div className="flex space-x-4">
             <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons"  target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200>Facebook icons created by Freepik - Flaticon" >
+<<<<<<< HEAD
          
                 <img src={Facebook} alt="Facebook" className="w-6 h-6" />
               </a>
@@ -50,6 +52,18 @@ function Footer() {
               </a>
               <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200">
                 <img src={Linkedin} alt="LinkedIn" className="w-6 h-6" />
+=======
+            
+              </a>
+              <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200">
+                {/* <img src="/icons/twitter.svg" alt="Twitter" className="w-6 h-6" /> */}
+              </a>
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200">
+                {/* <img src="/icons/instagram.svg" alt="Instagram" className="w-6 h-6" /> */}
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200">
+                {/* <img src="/icons/linkedin.svg" alt="LinkedIn" className="w-6 h-6" /> */}
+>>>>>>> f4683752b1f5ed8b40c18c41ca1534cf43186b04
               </a>
             </div>
           </div>

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import ListCard from '../features/components/listsCard'; 
 import { useDispatch, useSelector } from 'react-redux';
-import { deleteItem } from '/src/redux/slices/shoppinglistSlice'; // removed addItem since form handles adding
+import { deleteItem } from '/src/redux/slices/shoppinglistSlice'; 
 import Footer from '../features/components/footer';
 import Layout from '../features/components/layout';
-import ShoppingListForm from '../features/components/shoppingListForm'; // Import the form component
+import ShoppingListForm from '../features/components/shoppingListForm'; 
 
 function Listspage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -12,7 +12,7 @@ function Listspage() {
   const [isFormVisible, setIsFormVisible] = useState(false); // State to control form visibility
   const [selectedItem, setSelectedItem] = useState(null); // For edit functionality
   const dispatch = useDispatch();
-  const items = useSelector(state => state.shoppingList.items);
+  const items = useSelector(state => state.shoppingList.items) || [];
 
   const handleSearch = (e) => {
     setSearchQuery(e.target.value);
@@ -33,8 +33,11 @@ function Listspage() {
   };
 
   const filteredItems = items
-    .filter(item => item.name.toLowerCase().includes(searchQuery.toLowerCase()))
-    .sort((a, b) => a[sortOption].localeCompare(b[sortOption]));
+    .filter(item => 
+      item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      (item.categories && item.categories.toLowerCase().includes(searchQuery.toLowerCase()))
+    )
+    .sort((a, b) => a[sortOption].localeCompare(b[sortOption] || '')); // Handle undefined sort option
 
   return (
     <>
@@ -58,20 +61,24 @@ function Listspage() {
             className="border rounded-lg px-4 py-2 shadow-sm w-full sm:w-64"
           >
             <option value="name">Sort by Name</option>
-            <option value="category">Sort by Category</option>
+            <option value="categories">Sort by Category</option>
           </select>
         </div>
 
         {/* List of Items */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredItems.map(item => (
-            <ListCard
-              key={item.id}
-              item={item}
-              onEdit={handleEdit}
-              onDelete={handleDelete}
-            />
-          ))}
+          {filteredItems.length > 0 ? (
+            filteredItems.map(item => (
+              <ListCard
+                key={item.id}
+                item={item}
+                onEdit={handleEdit}
+                onDelete={handleDelete}
+              />
+            ))
+          ) : (
+            <p>No items found.</p> // Handle case where there are no filtered items
+          )}
         </div>
 
         {/* Add New Item Button */}
@@ -93,6 +100,7 @@ function Listspage() {
             <ShoppingListForm 
               selectedItem={selectedItem} 
               setSelectedItem={setSelectedItem} 
+        
             />
           </div>
         )}

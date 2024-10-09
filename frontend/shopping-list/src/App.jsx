@@ -18,6 +18,7 @@ function App() {
         <Route path= '/layout' element={<Layoutpage/>}>   </Route>
         <Route path= '/loginpage' element={<Loginpage/>}></Route>
         <Route path='/Registerpage' element={<Registerpage/>}></Route>
+<<<<<<< HEAD
 
         <Route path='/listspage'>
         <Route index element={<Listspage/>}></Route>
@@ -27,6 +28,10 @@ function App() {
         
    
       </Routes>
+=======
+        <Route path='/listspage' element={<Listspage/>}></Route>
+     </Routes>
+>>>>>>> f4683752b1f5ed8b40c18c41ca1534cf43186b04
     </BrowserRouter>
 
     </>
