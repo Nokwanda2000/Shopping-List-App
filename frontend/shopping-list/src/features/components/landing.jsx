@@ -14,16 +14,16 @@ function Landing() {
         <div className="z-10 text-center space-y-8">
           {/* Heading */}
           <h1 className="text-white text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-            Welcome to <span className="text-yellow-400">Drip</span>
+            Welcome to <span className="text-blue-400">Drip shopping-list</span>
           </h1>
 
           {/* Subheading */}
           <p className="text-white text-lg sm:text-xl font-medium max-w-lg mx-auto drop-shadow-md">
-            Discover the best shopping experience, curated just for you. Start shopping and explore the latest trends in fashion and more!
+            Discover the best shopping experience, curated just for you. Create a shopping list and share it with your friends!
           </p>
-
+<br></br>
          <Link to='/loginpage'>
-         <button className="text-white px-6 sm:px-12 py-3 sm:py-4 bg-yellow-500 hover:bg-yellow-600 focus:ring-4 focus:ring-yellow-300 rounded-full text-lg sm:text-xl font-semibold transition duration-300 ease-in-out transform hover:scale-105">
+         <button className="text-white px-6 sm:px-12 py-3 sm:py-4 bg-blue-600 hover:bg-blue-300 focus:ring-4 focus:ring-yellow-300 rounded-full text-lg sm:text-xl font-semibold transition duration-300 ease-in-out transform hover:scale-105">
             Get started
           </button>
          </Link>

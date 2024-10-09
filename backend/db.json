@@ -53,18 +53,23 @@
       "id": "ddfe",
       "email": "nokwandachonco262@gmail.com",
       "password": "Nokwanda2000"
+    },
+    {
+      "id": "adfa",
+      "email": "nokwandachonco262@gmail.com",
+      "password": "Nokwanda2000"
     }
   ],
   "products": [
     {
-      "id": 1728289878026,
+      "id": "1728289878026",
       "name": "Apple",
       "quantity": "3",
       "notes": "Buy tomorr",
       "categories": "Grocery"
     },
     {
-      "id": 1728289994293,
+      "id": "1728289994293",
       "name": "Apple",
       "quantity": "1",
       "notes": "Buy tomorr",
@@ -78,259 +83,259 @@
       "categories": "Grocery"
     },
     {
-      "id": 1728290931275,
+      "id": "1728290931275",
       "name": "Apple",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Groceries"
     },
     {
-      "id": 1728290964082,
+      "id": "1728290964082",
       "name": "Nappies",
       "quantity": "3",
       "notes": "3",
       "categories": "Household Items"
     },
     {
-      "id": 1728290998882,
+      "id": "1728290998882",
       "name": "Apple",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Groceries"
     },
     {
-      "id": 1728291022496,
+      "id": "1728291022496",
       "name": "fruits",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Groceries"
     },
     {
-      "id": 1728291046800,
+      "id": "1728291046800",
       "name": "denim skirt",
       "quantity": "1",
       "notes": "Buy tomorr",
       "categories": "Clothing"
     },
     {
-      "id": 1728292344657,
+      "id": "1728292344657",
       "name": "Apple",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Groceries"
     },
     {
-      "id": 1728292369660,
+      "id": "1728292369660",
       "name": "Nappies",
       "quantity": "4",
       "notes": "Buy tomorr",
       "categories": "Household Items"
     },
     {
-      "id": 1728292404188,
+      "id": "1728292404188",
       "name": "Apple",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Groceries"
     },
     {
-      "id": 1728292433963,
+      "id": "1728292433963",
       "name": "Denim skirt",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Clothing"
     },
     {
-      "id": 1728292647606,
+      "id": "1728292647606",
       "name": "Apple",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Groceries"
     },
     {
-      "id": 1728292693125,
+      "id": "1728292693125",
       "name": "Apple",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Groceries"
     },
     {
-      "id": 1728292730540,
+      "id": "1728292730540",
       "name": "Nappies",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Clothing"
     },
     {
-      "id": 1728293030312,
+      "id": "1728293030312",
       "name": "Apple",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Groceries"
     },
     {
-      "id": 1728294250878,
+      "id": "1728294250878",
       "name": "Nappies",
       "quantity": "1",
       "notes": "Buy tomorr",
       "categories": "Household Items"
     },
     {
-      "id": 1728294284030,
+      "id": "1728294284030",
       "name": "Chicken",
       "quantity": "2",
       "notes": "Buy tomorr",
       "categories": "Groceries"
     },
     {
-      "id": 1728294395123,
+      "id": "1728294395123",
       "name": "Apple",
       "quantity": "1",
       "notes": "Buy tomorrow",
       "categories": "Groceries"
     },
     {
-      "id": 1728294781035,
+      "id": "1728294781035",
       "name": "Apple",
       "quantity": "1",
       "notes": "Buy tomorrow",
       "categories": "Household Items"
     },
     {
-      "id": 1728294804315,
+      "id": "1728294804315",
       "name": "Apple",
       "quantity": "1",
       "notes": "Buy tomorrow",
       "categories": "Groceries"
     },
     {
-      "id": 1728294858918,
+      "id": "1728294858918",
       "name": "Burger patties",
       "quantity": "3",
       "notes": "Buy tomorrow",
       "categories": "Groceries"
     },
     {
-      "id": 1728295619353,
+      "id": "1728295619353",
       "name": "gym",
       "quantity": "1",
       "notes": "Buy tomorrow",
       "categories": "Groceries"
     },
     {
-      "id": 1728298447915,
+      "id": "1728298447915",
       "name": "Gym",
       "quantity": "1",
       "notes": "",
       "categories": "Groceries"
     },
     {
-      "id": 1728298704390,
+      "id": "1728298704390",
       "name": "Gym",
       "quantity": "1",
       "notes": "",
       "categories": "Household Items"
     },
     {
-      "id": 1728299501374,
+      "id": "1728299501374",
       "name": "Gym",
       "quantity": "3",
       "notes": "",
       "categories": "Groceries"
     },
     {
-      "id": 1728300519870,
+      "id": "1728300519870",
       "name": "Party",
       "quantity": "1",
       "notes": "Sibusiso party",
       "categories": "Household Items"
     },
     {
-      "id": 1728301186261,
+      "id": "1728301186261",
       "name": "Gym",
       "quantity": "1",
       "notes": "",
       "categories": "Groceries"
     },
     {
-      "id": 1728301229797,
+      "id": "1728301229797",
       "name": "Gym",
       "quantity": "1",
       "notes": "",
       "categories": "Groceries"
     },
     {
-      "id": 1728301796819,
+      "id": "1728301796819",
       "name": "gym",
       "quantity": "1",
       "notes": "",
       "categories": "Groceries"
     },
     {
-      "id": 1728301923221,
+      "id": "1728301923221",
       "name": "Gym",
       "quantity": "1",
       "notes": "",
       "categories": "Groceries"
     },
     {
-      "id": 1728302307029,
+      "id": "1728302307029",
       "name": "Apple",
       "quantity": "1",
       "notes": "",
       "categories": "Groceries"
     },
     {
-      "id": 1728302939636,
+      "id": "1728302939636",
       "name": "Nokwanda Chonco",
       "quantity": "1",
       "notes": "Buy tomorr",
       "categories": "Household Items"
     },
     {
-      "id": 1728303003517,
+      "id": "1728303003517",
       "name": "Gym",
       "quantity": "2",
       "notes": "",
       "categories": "Clothing"
     },
     {
-      "id": 1728303337421,
+      "id": "1728303337421",
       "name": "Apple",
       "quantity": "2",
       "notes": "",
       "categories": "Groceries"
     },
     {
-      "id": 1728303861938,
+      "id": "1728303861938",
       "name": "Gym",
       "quantity": "2",
       "notes": "",
       "categories": "Household Items"
     },
     {
-      "id": 1728304095960,
+      "id": "1728304095960",
       "name": "Gym",
       "quantity": "3",
       "notes": "",
       "categories": "Household Items"
     },
     {
-      "id": 1728304134691,
+      "id": "1728304134691",
       "name": "Nokwanda Gym wear",
       "quantity": "1",
       "notes": "",
       "categories": "Clothing"
     },
     {
-      "id": 1728304163211,
+      "id": "1728304163211",
       "name": "Nokwanda Gym wear",
       "quantity": "3",
       "notes": "Buy tomorr",
       "categories": "Clothing"
     },
     {
-      "id": 1728306443001,
+      "id": "1728306443001",
       "name": "Apple",
       "quantity": "2",
       "notes": "4",
@@ -351,32 +356,95 @@
       "categories": "Party"
     },
     {
-      "id": 1728307115521,
+      "id": "1728307115521",
       "name": "Party",
       "quantity": "7",
       "notes": "",
       "categories": "Groceries"
     },
     {
-      "id": 1728307512596,
+      "id": "1728307512596",
       "name": "Nokwanda's party",
       "quantity": "5",
       "notes": "",
       "categories": "Clothing"
     },
     {
-      "id": 1728307618234,
+      "id": "1728307618234",
       "name": "Nokwanda's party",
       "quantity": "7",
       "notes": "",
       "categories": "Clothing"
     },
     {
-      "id": 1728308087707,
+      "id": "1728308087707",
       "name": "Nokwanda's party",
       "quantity": "6",
       "notes": "",
       "categories": "Groceries"
+    },
+    {
+      "id": "1728309067547",
+      "name": "Party",
+      "quantity": "8",
+      "notes": "",
+      "categories": "Clothing"
+    },
+    {
+      "id": "1728309854445",
+      "name": "Nokwanda's party",
+      "quantity": "7",
+      "notes": "",
+      "categories": "Groceries"
+    },
+    {
+      "id": "1728310435575",
+      "name": "Party",
+      "quantity": "7",
+      "notes": "",
+      "categories": "Groceries"
+    },
+    {
+      "id": "1728312590387",
+      "name": "Gym",
+      "quantity": "3",
+      "notes": "",
+      "categories": "Household Items"
+    },
+    {
+      "id": 1728456134768,
+      "name": "Nokwanda's party",
+      "quantity": "5",
+      "notes": "",
+      "categories": "Household Items"
+    },
+    {
+      "id": 1728456224263,
+      "name": "Nokwanda's party",
+      "quantity": "5",
+      "notes": "",
+      "categories": "Household Items"
+    },
+    {
+      "id": 2,
+      "name": "beef",
+      "quantity": "1",
+      "notes": "",
+      "categories": "Grocery"
+    },
+    {
+      "id": 1728456575980,
+      "name": "Nokwanda's party",
+      "quantity": "5",
+      "notes": "",
+      "categories": "Other"
+    },
+    {
+      "id": 2,
+      "name": "Beef",
+      "quantity": "1",
+      "notes": "",
+      "categories": "Grocery"
     }
   ],
   "orders": []

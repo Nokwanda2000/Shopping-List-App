@@ -13,6 +13,7 @@ function ShoppingListForm({ selectedItem, setSelectedItem }) {
     "Household Items",
     "Electronics",
     "Clothing",
+    "Other",
   ];
 
   useEffect(() => {
